@@ -125,7 +125,8 @@ figcaption{
     height: 25px;
 }
 .article-icons-date{
-    width: 300px;   
+    width: 300px;  
+    text-align: left; 
 }
 
 .article-icons {
@@ -138,11 +139,66 @@ figcaption{
     margin-right: 20px;    
 }
 .article-icons-circular{
-    width: 22px;
+    width: 27px;
     height: 22px;
+    position: relative;
+    padding-top: 5px;
     border-radius: 50%;
     background-color: #E2E2E2;
 }
+.article-icons-circular:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #E2E2E2;
+}
+.third-section-article{
+    text-align: left;
+    width: 55%;
+    margin: auto;
+}
+.third-section-article p{
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.4em;
+    font-weight: 530;
+}
+.horizontal-line{
+    border-top: 1px solid #CCCCCC;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+.centered-section{
+    text-align: center;
+    /* margin-bottom: 20px; */
+    
+    
+}
+.centered-section a{
+    padding-top: 0;
+    position: relative;
+    bottom: 20px;
+    color: #656891;
+}
+#centered-section-tags-anchor,
+#centered-section-tags-para{
+    font-weight: 600;
+    font-size: medium;
+}
+.main-aside{
+    width: 300px;
+    height: 400px;
+    display: flex
+    flex-direction: column;
+    
+}
+.aside-images{
+    height: 75px;
+    width: 75px;
+}
+.aside-information{
+
+}
+
 
 
     
