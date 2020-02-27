@@ -481,6 +481,7 @@ figcaption{
     align-items: center;
     width: 100%;
     border-top: 4px double #E2E2E2;
+    
     margin: auto ;
 }
 
@@ -511,7 +512,6 @@ figcaption{
 
 .footer-body aside {
     width: 20%;
-    background-color: green;
 }
 
 .footer-grid-item {
@@ -519,7 +519,8 @@ figcaption{
     margin-left: 25px ;
 }
 
-.footer-grid-item h3 {
+.footer-grid-item h3,
+.footer-aside-lists h3 {
     color:black;
     font-size: 15px;
     font-weight: 700;
@@ -545,3 +546,40 @@ figcaption{
 .footer-grid-item a:hover,.footer-grid-item li:hover {
     text-decoration: underline;
 } 
+.footer-unordered-lists li{
+    list-style-type: none;
+    display: flex;
+    align-items: center; 
+    margin-bottom: 4px; 
+}
+.bold-text{
+    font-weight: bold;
+    color: black;
+    margin-bottom: 3px;
+    
+    
+}
+.footer-unordered-lists a {
+    display: flex;
+    align-items: center;
+}
+.footer-unordered-lists img{
+    margin-right: 3px;
+   
+    
+}
+.footer-unordered-lists {
+    padding: 0;
+    margin-top: 5px;
+}
+.footer-unordered-lists li:hover{
+    text-decoration: underline;
+}
+.small-text{
+    font-size: 12px;
+    color: black;
+}
+
+.footer-part{
+    border-bottom: 1px solid #E2E2E2;
+}
