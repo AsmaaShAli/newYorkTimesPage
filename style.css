@@ -580,6 +580,29 @@ figcaption{
     color: black;
 }
 
-.footer-part{
-    border-bottom: 1px solid #E2E2E2;
+.footer-list-2 {
+    list-style-type: none;
+}
+.footer-list-2 li {
+    display: inline;
+    margin: 4px;
+}
+
+.footer-list-2 a {
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    color: #666;
+    text-decoration: none;
+    font-size: x-small;
+}
+
+.footer-list-2 a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hr-line {
+    background-color: #e2e2e2;
+    color: #e2e2e2;
+    border: none;
+    border-bottom: 1px solid #e2e2e2;
 }
