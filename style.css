@@ -347,13 +347,18 @@ figcaption{
 .more-items-most-popular-section {
     display: flex;
     width: 90%;
-    margin:auto ; 
+    margin: auto; 
+    height: 800px;
     justify-content: space-between;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .grid-container {
     width: 80%;
     margin: 5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .more-items-headers {
@@ -386,6 +391,7 @@ figcaption{
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: auto;
     margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .more-items-grid img, 
@@ -458,12 +464,84 @@ figcaption{
 .editors-picks-grid-container{
     width: 80%;
 }
-.second-editors-picks h2{
+.second-editors-picks h4{
     width: 78%;
     border-top: 1px solid black;
     padding-top: 20px;
 
 }
+.footer-part {
+    width: 90%;
+    margin:auto;
+}
 
-    
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top: 4px double #E2E2E2;
+    margin: auto ;
+}
 
+.footer-nav a {
+    color:#567b95;
+    font-family: nyt-franklin;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+}
+
+.footer-body {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+}
+
+
+.footer-grid {
+    display: flex;
+    width: 80%;
+    border-right:  1px solid #E2E2E2;
+    margin-right: 10px;
+}
+
+.footer-body aside {
+    width: 20%;
+    background-color: green;
+}
+
+.footer-grid-item {
+    width: 150px;
+    margin-left: 25px ;
+}
+
+.footer-grid-item h3 {
+    color:black;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: nyt-franklin;
+    height: 25px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+.footer-grid-item ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+
+.footer-grid-item a,.footer-grid-item li {
+    margin:0;
+    color: black;
+    font-family: nyt-franklin;
+    margin-bottom: 3px;
+}
+.footer-grid-item a:hover,.footer-grid-item li:hover {
+    text-decoration: underline;
+} 
