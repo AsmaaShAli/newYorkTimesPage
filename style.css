@@ -380,14 +380,16 @@ figcaption{
     font-weight: bold;
 }
 
-.more-items-grid {
+.more-items-grid, .editors-picks-grid-container {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: auto;
+    margin-bottom: 0;
 }
 
-.more-items-grid img {
+.more-items-grid img, 
+.grid-container-items img {
     width:300px;
     height: 200px;
 }
@@ -443,6 +445,24 @@ figcaption{
 
 .most-popular-link:hover {
     color: grey;
+}
+.second-editors-picks{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin:auto;
+    margin-top: 0;
+    
+    
+}
+.editors-picks-grid-container{
+    width: 80%;
+}
+.second-editors-picks h2{
+    width: 78%;
+    border-top: 1px solid black;
+    padding-top: 20px;
+
 }
 
     
