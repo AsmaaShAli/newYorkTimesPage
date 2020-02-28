@@ -12,7 +12,7 @@ An Example Repo for microverse Projects path as a mockup of [newyork times page]
 It contains an exact copy of the layout, and similar functionality and the same user experience. 
 
 # Live Demo
-[Live Demo Link](https://rawcdn.githack.com/AsmaaShAli/newYorkTimesPage/61e780baa4e1d47ace48c20be9e0702c7489f326/index.html)
+[Live Demo Link](https://rawcdn.githack.com/AsmaaShAli/newYorkTimesPage/47fa6a2508bcfab2e72d7cf31cee182d174aca61/index.html)
 
 # Authors
 * Github: [@AsmaaShAli](https://github.com/AsmaaShAli/)
