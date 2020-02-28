@@ -16,6 +16,7 @@ body {
   justify-content: center;
   border-bottom: 1px solid #e2e2e2;
   position: fixed;
+  z-index:1;
   background-color: white;
 }
 
